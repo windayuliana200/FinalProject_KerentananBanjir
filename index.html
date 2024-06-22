@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Tugas WebGIS</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="https://png.pngtree.com/png-clipart/20221008/original/pngtree-globe-icon-png-image_8666484.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div class="container-fluid container-xl position-relative d-flex align-items-center">
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <img src="https://i.pinimg.com/originals/f3/7e/bb/f37ebbea1f4318dec775a4d705bd7cca.gif" alt="" />
+          <h1 class="sitename">Banjir.Pekalongan</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html#hero" class="active">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#features">Features</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#pricing">Pricing</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <a class="btn-getstarted" href="index.html#about">Mulai</a>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section">
+        <div class="hero-bg">
+          <img src="https://i.pinimg.com/originals/7a/c3/09/7ac3092cffd29d7a888b35c80c2a6301.gif" alt="" />
+        </div>
+        <div class="container text-center">
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <h1 data-aos="fade-up">Welcome to <span>Banjir.Pekalongan</span></h1>
+            <p data-aos="fade-up" data-aos-delay="100">
+              Informasi terkait Bencana Banjir di Kota Pekalongan<br />
+              <center>
+                <a href="https://youtu.be/b5wjvTA4ao4?si=ZyqapIPjgp895WAA" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+              </center>
+            </p>
+            <div class="d-flex" data-aos="fade-up" data-aos-delay="200"></div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Lambang_Kota_Pekalongan.png" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300" />
+          </div>
+        </div>
+      </section>
+      <!-- /Hero Section -->
+
+      <!-- Featured Services Section -->
+      <section id="featured-services" class="featured-services section">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0"><i class="bi bi-emoji-frown-fill"></i></div>
+                <div>
+                  <h4 class="title"><a href="#" class="stretched-link">Bencana Banjir</a></h4>
+                  <p class="description">Banjir adalah kondisi di mana suatu kawasan terendam air dalam jumlah yang berlebihan</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0"><i class="bi bi-cloud-drizzle-fill"></i></div>
+                <div>
+                  <h4 class="title"><a href="#" class="stretched-link">Curah Hujan</a></h4>
+                  <p class="description">Hujan deras dalam waktu singkat dapat menyebabkan aliran sungai meluap dan menggenangi daerah sekitarnya.</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
+                <div>
+                  <h4 class="title"><a href="#" class="stretched-link">Risiko</a></h4>
+                  <p class="description">Banjir membawa berbagai risiko yang berdampak luas, baik secara langsung maupun tidak langsung, pada manusia, properti, lingkungan, dan ekonomi.</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Featured Services Section -->
+
+      <!-- About Section -->
+      <section id="about" class="about section">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+              <p class="who-we-are">Bagaimana dengan Pekalongan</p>
+              <h3>About Kota Pekalongan</h3>
+              <p class="fst-italic">
+                Kota Pekalongan (Hanacaraka: ꦥꦏꦭꦺꦴꦔꦤ꧀, Pegon: ڤكلوڠن, translit. Pakalongan, Hanzi: 北加隆岸; Pinyin: Běi Jiā Lóng Àn, Belanda: Pacalongan) adalah salah satu kota di provinsi Jawa Tengah, Indonesia. Kota ini merupakan
+                pelabuhan terpenting di Jawa Tengah terkenal dengan batiknya. Pekalongan merupakan kota pertama di Indonesia dan kota Asia Tenggara pertama yang menjadi bagian dari Jaringan Kota Kreatif UNESCO.
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> <span>Nama Kota Pekalongan (Gemeente Pekalongan) dapat ditelusuri pada arsip dokumen Keputusan Pemerintah Hindia Belanda (Gouvernements Besluit) Nomor 40 tahun 1931.</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Kota Pekalongan pertama kali menggunakan coat of arms bergaya Belanda yang pada perisainya tergambar tiga ekor ikan di jaring.</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Kota Pekalongan membentang antara 6º50’42”–6º55’44” LS dan 109º37’55”–109º42’19” BT.</span></li>
+              </ul>
+              <a href="https://id.wikipedia.org/wiki/Kota_Pekalongan" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+
+            <div class="col-lg-6 about-images" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+                <div class="col-lg-6">
+                  <img src="https://www.radarcirebon.tv/wp-content/uploads/2023/03/4cdd8f16-a2b3-4f47-8f94-6e82a25d60bc.jpg" class="img-fluid" alt="" />
+                </div>
+                <div class="col-lg-6">
+                  <div class="row gy-4">
+                    <div class="col-lg-12">
+                      <img src="https://images.solopos.com/2022/03/Tugu-Kajen-titik-0-Km-Kabupaten-Pekalongan.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="col-lg-12">
+                      <img src="https://salsawisata.com/wp-content/uploads/2023/07/Alun-Alun-Kota-Pekalongan.jpg" class="img-fluid" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /About Section -->
+
+      <!-- Clients Section -->
+      <section id="clients" class="clients section">
+        <div class="container" data-aos="fade-up">
+          <div class="row gy-4">
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <a href="https://inarisk.bnpb.go.id/"> <img src="https://inarisk.bnpb.go.id/images/logo_InaRISK_eng_lowres.png" class="img-fluid" alt="" /></a>
+            </div>
+            <!-- End Client Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <a href="https://dibi.bnpb.go.id/"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Logo_BNPB.png/476px-Logo_BNPB.png" class="img-fluid" alt="" /></a>
+            </div>
+            <!-- End Client Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <a href="https://vsi.esdm.go.id/portalmbg/"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6mOf5h-6wCIkqteqr_pqjo9px3pGxRy0L0dXgVLl_uFx8K1RBbl44Pl7wGkjGAnUiNN0&usqp=CAU" class="img-fluid" alt="" /></a>
+            </div>
+            <!-- End Client Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <a href="https://perpustakaan.bnpb.go.id/bulian/"> <img src="https://perpustakaan.bnpb.go.id/bulian/template/lightweight/assets/img/logo_manifest.png" class="img-fluid" alt="" /></a>
+            </div>
+            <!-- End Client Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <a href="https://geoportal.pekalongankota.go.id/"> <img src="https://tanahair.indonesia.go.id/portal-web/bencana/asset_one/logo_kl/BIG.png" class="img-fluid" alt="" /></a>
+            </div>
+            <!-- End Client Item -->
+
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <a href="https://bmkg.go.id/cuaca/prakiraan-cuaca.bmkg?Kota=Pekalongan&AreaID=501254&Prov=11"> <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Logo_BMKG_%282010%29.png" class="img-fluid" alt="" /></a>
+            </div>
+            <!-- End Client Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Clients Section -->
+
+      <!-- Features Section -->
+      <section id="features" class="features section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Information</h2>
+          <p>
+            Selamat datang di Portal Informasi Banjir. Di sini, Anda akan menemukan berbagai informasi mengenai banjir, termasuk definisi, penyebab, dampak, dan cara penanggulangan banjir. Kami berkomitmen untuk memberikan informasi yang
+            akurat dan terkini untuk membantu masyarakat lebih siap menghadapi bencana banjir.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-5 d-flex align-items-center">
+              <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
+                <li class="nav-item">
+                  <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+                    <i class="bi bi-cloud-lightning-rain-fill"></i>
+                    <div>
+                      <h4 class="d-none d-lg-block">Apa Itu Banjir?</h4>
+                      <p>Banjir adalah kondisi di mana air menggenangi daratan yang biasanya kering.</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+                    <i class="bi bi-box-seam"></i>
+                    <div>
+                      <h4 class="d-none d-lg-block">Jenis - Jenis Banjir</h4>
+                      <ul class="banjir-list">
+                        <li><i class="bi bi-cloud-rain-heavy-fill"></i>Banjir Sungai: Terjadi ketika aliran sungai meluap karena curah hujan yang tinggi atau pencairan salju.</li>
+                        <li><i class="bi bi-lightning-fill"></i>Banjir Bandang: Banjir tiba-tiba dengan aliran air yang sangat deras, biasanya disebabkan oleh hujan lebat dalam waktu singkat.</li>
+                        <li><i class="bi bi-cloud-lightning-fill"></i>Banjir Pasang (Rob): Terjadi di daerah pesisir akibat naiknya permukaan air laut, sering dipicu oleh pasang surut, badai, atau tsunami.</li>
+                        <li><i class="bi bi-cloud-sleet-fill"></i>Banjir Urban: Terjadi di kawasan perkotaan akibat sistem drainase yang tidak memadai untuk menampung volume air hujan yang tinggi.</li>
+                      </ul>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+
+              <!-- End Tab Nav -->
+            </div>
+
+            <div class="col-lg-6">
+              <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+                <div class="tab-pane fade active show" id="features-tab-1">
+                  <img src="https://awsimages.detik.net.id/community/media/visual/2022/06/24/foto-udara-banjir-rob-di-kota-pekalongan-jawa-tengah-jumat-2462022_43.jpeg?w=600&q=90" alt="" class="img-fluid" />
+                </div>
+                <!-- End Tab Content Item -->
+
+                <div class="tab-pane fade" id="features-tab-2">
+                  <img src="https://www.ekuatorial.com/wp-content/uploads/2019/12/Tulisan-1f-scaled-e1577155175423.jpg" alt="" class="img-fluid" />
+                </div>
+                <!-- End Tab Content Item -->
+
+                <div class="tab-pane fade" id="features-tab-3">
+                  <img src="https://www.mongabay.co.id/wp-content/uploads/2023/06/Foto-udara-banjir-rob-Pekalongan-2-scaled.jpeg" alt="" class="img-fluid" />
+                </div>
+                <!-- End Tab Content Item -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Features Section -->
+
+      <!-- Features Details Section -->
+      <section id="features-details" class="features-details section">
+        <div class="container">
+          <div class="row gy-4 justify-content-between features-item">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <img src="https://akcdn.detik.net.id/community/media/visual/2023/01/04/lokasi-banjir-di-kota-pekalongan-yang-berangsur-surut-rabu-412023_43.jpeg?w=700&q=90" class="img-fluid" alt="" />
+            </div>
+
+            <div class="col-lg-5 d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+              <div class="content">
+                <h3>Kondisi Terkini Banjir di Pekalongan</h3>
+                <p>
+                  "Titik banjir di Kelurahan Tirto sudah turun signifikan. Tinggal wilayah Pasirsari masih ada genangan 30 sentimeter. Sedangkan wilayah di utara yang kelurahan Degayu, genangan masih 40 sentimeter," kata Dimas. Limpasan air
+                  sungai itu yang disebut menyebabkan banjir cukup tinggi di wilayah Tirto hingga Pasirkratonkramat, Pekalongan Barat. Hal itu disampaikan Aaf dalam rapat koordinasi penanganan bencana bersama seluruh kepala daerah, Gubernur
+                  Jawa Tengah, BNPB, BMKG, di Kantor Gubernur Jawa Tengah Semarang. BBWS sendiri menyampaikan bebannya berat karena sungai-sungai di Jawa Tengah yang harus dinormalisasi banyak sekali.
+                </p>
+                <p>4 Januari 2023, 14:55 WIB</p>
+                <a href="https://www.detik.com/tag/banjir-di-pekalongan" class="btn more-btn">Baca Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <!-- Features Item -->
+
+          <div class="row gy-4 justify-content-between features-item">
+            <div class="col-lg-5 d-flex align-items-center order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+              <div class="content">
+                <h3>Waspada! Banjir Rob di Kota Pekalongan hingga Akhir Juni 2023</h3>
+                <p>
+                  Badan Meteorologi Klimatologi dan Geofisika (BMKG) mengimbau masyarakat Kota Pekalongan waspada terhadap banjir rob.atai air laut pasang. BMKG menginformasikan banjir rob masih terjadi di Kota Pekalongan hingga akhir
+                  2023.Foto udara kondisi rumah warga yang tergenang banjir rob di Pekalongan, Jawa Tengah
+                </p>
+                <ul>
+                  <li><i class="bi bi-easel flex-shrink-0"></i> Banjir ROB</li>
+                  <li><i class="bi bi-brightness-high flex-shrink-0"></i> Sungai Meduri</li>
+                </ul>
+                <p>18 Juni 2023, 14:55 WIB</p>
+                <a href="https://jateng.inews.id/berita/waspada-banjir-rob-di-kota-pekalongan-hingga-akhir-juni-2023/2" class="btn more-btn">Baca Selengkapnya</a>
+              </div>
+            </div>
+
+            <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
+              <img src="https://cdn.antarafoto.com/cache/1200x900/2021/11/16/banjir-rob-pekalongan-belum-surut-x3b1-dom.jpg" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <!-- Features Item -->
+        </div>
+      </section>
+      <!-- /Features Details Section -->
+
+      <!-- Services Section -->
+      <section id="services" class="services section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Our Service</h2>
+          <p>Upaya Penanggulangan Banjir</p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-item item-cyan position-relative">
+                <i class="bi bi-activity icon"></i>
+                <div>
+                  <h3>Edukasi dan Kesadaran Masyarakat</h3>
+                  <p>Meningkatkan kesadaran dan pengetahuan masyarakat tentang tindakan pencegahan dan penanggulangan banjir.</p>
+                  <a href="service-details.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-item item-orange position-relative">
+                <i class="bi bi-broadcast icon"></i>
+                <div>
+                  <h3>Perbaikan dan Pemeliharaan Sistem Drainase</h3>
+                  <p>Memastikan saluran air berfungsi dengan baik dan bebas dari penyumbatan.</p>
+                  <a href="service-details2.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-item item-teal position-relative">
+                <i class="bi bi-easel icon"></i>
+                <div>
+                  <h3>Pengelolaan Sumber Daya Air</h3>
+                  <p>Membangun bendungan, waduk, dan tanggul untuk mengatur aliran air dan mencegah banjir.</p>
+                  <a href="service-details3.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="service-item item-red position-relative">
+                <i class="bi bi-bounding-box-circles icon"></i>
+                <div>
+                  <h3>Penanaman Pohon dan Konservasi Lahan</h3>
+                  <p>Menanam pohon dan menjaga daerah resapan air untuk mengurangi aliran permukaan.</p>
+                  <a href="service-details4.html" class="read-more stretched-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Services Section -->
+
+      <!-- More Features Section -->
+      <section id="more-features" class="more-features section">
+        <div class="container">
+          <div class="row justify-content-around gy-4">
+            <div class="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+              <h3>Beberapa Faktor Terjadinya Bencana Banjir</h3>
+              <p>
+                Banjir adalah peristiwa berlimpahnya air yang meluap hingga meluap ke daratan, yang biasanya kering, akibat curah hujan yang tinggi, lelehan salju, atau masalah lain yang mengakibatkan air tak dapat diserap dengan cepat oleh
+                tanah atau dialirkan oleh saluran air yang ada. Banjir bisa terjadi secara tiba-tiba atau secara bertahap.
+              </p>
+
+              <div class="row">
+                <div class="col-lg-6 icon-box d-flex">
+                  <i class="bi bi-cloud-lightning-rain-fill"></i>
+                  <div>
+                    <h4>Curah Hujan Tinggi</h4>
+                    <p>Hujan deras yang terjadi dalam waktu singkat dapat menyebabkan aliran sungai meluap dan menggenangi daerah sekitarnya.</p>
+                  </div>
+                </div>
+                <!-- End Icon Box -->
+
+                <div class="col-lg-6 icon-box d-flex">
+                  <i class="bi bi-backspace-fill"></i>
+                  <div>
+                    <h4>Sistem Drainase yang Buruk</h4>
+                    <p>Ketika sistem drainase tidak mampu menampung atau mengalirkan air hujan dengan efisien, air akan menggenang dan menyebabkan banjir.</p>
+                  </div>
+                </div>
+                <!-- End Icon Box -->
+
+                <div class="col-lg-6 icon-box d-flex">
+                  <i class="bi bi-building-fill-x"></i>
+                  <div>
+                    <h4>Pembangunan yang Tidak Terkendali</h4>
+                    <p>Urbanisasi yang cepat tanpa perencanaan yang baik dapat mengurangi area resapan air dan meningkatkan risiko banjir.</p>
+                  </div>
+                </div>
+                <!-- End Icon Box -->
+
+                <div class="col-lg-6 icon-box d-flex">
+                  <i class="bi bi-tree-fill"></i>
+                  <div>
+                    <h4>Kerusakan Lingkungan</h4>
+                    <p>Penebangan hutan dan penggundulan lahan mengurangi kemampuan tanah untuk menyerap air, meningkatkan risiko banjir.</p>
+                  </div>
+                </div>
+                <!-- End Icon Box -->
+              </div>
+            </div>
+
+            <div class="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
+              <img src="https://cdn.dribbble.com/users/939968/screenshots/2966864/house_flood.gif" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /More Features Section -->
+
+      <!-- Pricing Section -->
+      <section id="pricing" class="pricing section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Map Dashboard</h2>
+          <p>Tampilan Informasi Banjir Pekalongan 2023 Dashboard</p>
+        </div>
+        <center><iframe  style="border: none;" height="1000" width="1500" src="http://localhost:8092/mapstore/dashboard-embedded.html?connections=true#/108"></iframe></center>
+        <!-- End Section Title -->
+            <!-- End Pricing Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Pricing Section -->
+      <!-- Faq Section -->
+      <section id="faq" class="faq section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+              <div class="faq-container">
+                <div class="faq-item faq-active">
+                  <h3>Apa yang dimaksud dengan banjir?</h3>
+                  <div class="faq-content">
+                    <p>
+                      Banjir adalah suatu kondisi di mana suatu wilayah terendam oleh air yang diakibatkan oleh hujan deras, luapan sungai, pasang laut, atau kombinasi dari beberapa faktor tersebut. Banjir dapat terjadi secara tiba-tiba dan
+                      dapat merusak infrastruktur, properti, serta mengancam kehidupan manusia dan hewan.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>Apa penyebab utama terjadinya banjir?</h3>
+                  <div class="faq-content">
+                    <p>
+                      Penyebab utama terjadinya banjir antara lain adalah curah hujan yang sangat tinggi dalam waktu singkat, meluapnya sungai atau danau, penebangan hutan yang menyebabkan hilangnya area resapan air, drainase yang buruk
+                      atau tersumbat, kenaikan muka air laut akibat pasang atau badai, serta pengelolaan lahan yang buruk dan urbanisasi yang cepat tanpa perencanaan yang baik.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>Apa yang dapat dilakukan untuk mencegah banjir?</h3>
+                  <div class="faq-content">
+                    <p>
+                      EUntuk mencegah banjir, beberapa langkah yang dapat dilakukan antara lain adalah membangun dan memelihara infrastruktur pengelolaan air seperti bendungan, waduk, dan tanggul, penanaman pohon dan penghijauan lahan untuk
+                      meningkatkan resapan air, memperbaiki sistem drainase agar tidak tersumbat, membuat rencana tata ruang kota yang mempertimbangkan risiko banjir, menerapkan praktik pertanian berkelanjutan dan konservasi lahan, serta
+                      melakukan edukasi dan peningkatan kesadaran masyarakat mengenai pentingnya menjaga lingkungan.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>Bagaimana cara penanganan banjir saat terjadi?</h3>
+                  <div class="faq-content">
+                    <p>
+                      Saat banjir terjadi, langkah-langkah penanganan yang dapat dilakukan meliputi peringatan dini melalui sistem alarm atau media massa untuk evakuasi, menyediakan tempat penampungan darurat yang aman bagi masyarakat yang
+                      terkena dampak, menggunakan pompa air untuk mengurangi genangan, membantu evakuasi dan penyelamatan korban banjir, menggunakan perahu karet atau alat transportasi air lainnya untuk akses dan distribusi bantuan, serta
+                      melakukan pembersihan dan rehabilitasi pasca-banjir untuk mengembalikan kondisi lingkungan dan infrastruktur.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>Mengapa daerah perkotaan lebih rentan terhadap banjir?</h3>
+                  <div class="faq-content">
+                    <p>
+                      Daerah perkotaan lebih rentan terhadap banjir karena kurangnya area resapan air akibat banyaknya bangunan dan permukaan keras seperti jalan dan trotoar, sistem drainase yang seringkali tidak memadai untuk menampung
+                      volume air hujan yang tinggi, penebangan hutan dan perubahan penggunaan lahan yang mengurangi kapasitas penyerapan air, pembangunan yang cepat tanpa perencanaan yang memperhitungkan risiko banjir, serta urbanisasi yang
+                      mengabaikan konsep keberlanjutan dan pengelolaan air yang baik.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+              </div>
+            </div>
+            <!-- End Faq Column-->
+          </div>
+        </div>
+      </section>
+      <!-- /Faq Section -->
+
+      <!-- Testimonials Section -->
+      <section id="testimonials" class="testimonials section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Dampak Banjir</h2>
+          <p>Beberapa Contoh Dampak Dari Bencana Banjir Sebagai Berikut</p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                },
+                "breakpoints": {
+                  "320": {
+                    "slidesPerView": 1,
+                    "spaceBetween": 40
+                  },
+                  "1200": {
+                    "slidesPerView": 3,
+                    "spaceBetween": 1
+                  }
+                }
+              }
+            </script>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    Banjir dapat merusak berbagai jenis infrastruktur seperti jalan, jembatan, bangunan, dan fasilitas umum lainnya. Air banjir yang deras dan meluap dapat menggerus fondasi bangunan, meruntuhkan jembatan, dan menghancurkan
+                    jalan raya. Akibatnya, transportasi dan komunikasi menjadi terputus, menghambat mobilisasi dan distribusi bantuan.
+                  </p>
+                  <div class="profile mt-auto">
+                    <img src="https://st2.depositphotos.com/31862216/47030/v/450/depositphotos_470300796-stock-illustration-flood-natural-disaster-house-heavy.jpg" class="testimonial-img" alt="" />
+                    <h3>Kerusakan Infrastruktur</h3>
+                    <h4>Dampak Banjir</h4>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    Banjir dapat menyebabkan kerugian ekonomi yang sangat besar. Kerusakan properti, kehilangan hasil pertanian, dan gangguan terhadap aktivitas bisnis menjadi faktor utama kerugian ekonomi akibat banjir. Properti seperti
+                    rumah, peralatan, dan kendaraan rusak parah atau hancur, memerlukan biaya besar untuk perbaikan atau penggantian.
+                  </p>
+                  <div class="profile mt-auto">
+                    <img
+                      src="https://media.istockphoto.com/id/1060418496/id/vektor/bencana-alam-banjir-dalam-konsep-kota-kartun-banjir-kota-dan-mobil-dengan-sampah-mengambang.jpg?s=1024x1024&w=is&k=20&c=Nc6XtsA_MURDRRGPqB07cIbf7b_kjIvUennhs7DGC7w="
+                      class="testimonial-img"
+                      alt=""
+                    />
+                    <h3>Kerugian Ekonomi</h3>
+                    <h4>Dampak Banjir</h4>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    Banjir besar dapat menyebabkan korban jiwa yang signifikan. Orang-orang bisa tenggelam akibat tidak sempat menyelamatkan diri atau terjebak di dalam bangunan yang runtuh. Kehilangan nyawa ini tidak hanya menyebabkan
+                    kesedihan dan trauma bagi keluarga yang ditinggalkan, tetapi juga mempengaruhi struktur sosial masyarakat.
+                  </p>
+                  <div class="profile mt-auto">
+                    <img src="https://cianjur.jabarekspres.com/wp-content/uploads/2023/11/warga-banjar-di-edukasi-penguatan-sistem-bahaya-banjir.webp" class="testimonial-img" alt="" />
+                    <h3>Kehilangan Nyawa</h3>
+                    <h4>Dampak Banjir</h4>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    Banjir tidak hanya menyebabkan kerusakan fisik pada infrastruktur dan properti, tetapi juga membawa dampak kesehatan yang signifikan. Air banjir sering tercemar oleh berbagai agen patogen, bahan kimia, dan limbah, yang
+                    dapat memicu berbagai penyakit di kalangan masyarakat yang terdampak.
+                  </p>
+                  <div class="profile mt-auto">
+                    <img src="https://blokbojonegoro.com/files/2024/03/15/20240315_162155_0000.png" class="testimonial-img" alt="" />
+                    <h3>Penyakit</h3>
+                    <h4>Dampak Banjir</h4>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    Banjir mengakibatkan gangguan sosial yang signifikan, termasuk evakuasi massal, kehilangan tempat tinggal, dan dampak psikologis bagi korban. Evakuasi massal memerlukan tempat penampungan darurat, yang seringkali tidak
+                    memadai untuk menampung semua korban dengan layak.
+                  </p>
+                  <div class="profile mt-auto">
+                    <img src="https://cdn-assetd.kompas.id/N-y-u2AvZUYUQ2QIU3hYa4GaamY=/1024x1192/https%3A%2F%2Fkompas.id%2Fwp-content%2Fuploads%2F2020%2F01%2FMUDA-RELAWAN-BANJIR_1579603537.jpg" class="testimonial-img" alt="" />
+                    <h3>Gangguan Sosial</h3>
+                    <h4>Dampak Banjir</h4>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- /Testimonials Section -->
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p>Silahkan kirim pesan, dan saran pada kolom yang telah tersedia</p>
+        </div>
+
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-6">
+              <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt"></i>
+                <h3>Address</h3>
+                <p>Departemen Teknologi Kebumian, Sekolah Vokasi, Universitas Gadjah Mada.</p>
+              </div>
+            </div>
+            <!-- End Info Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone"></i>
+                <h3>Call Me</h3>
+                <p>+6283172826528</p>
+              </div>
+            </div>
+            <!-- End Info Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope"></i>
+                <h3>Email</h3>
+                <p>windayuliana2004@mail.ugm.ac.id</p>
+              </div>
+            </div>
+            <!-- End Info Item -->
+          </div>
+
+          <div class="row gy-4 mt-1">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63375.28613967627!2d109.63321743621022!3d-6.895940226941406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70242ca490fe13%3A0xc0c68a126b258cb6!2sPekalongan%2C%20Kota%20Pekalongan%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1718558166348!5m2!1sid!2sid"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <!-- End Google Maps -->
+
+            <div class="col-lg-6">
+              <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="400">
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="" />
+                  </div>
+
+                  <div class="col-md-6">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="" />
+                  </div>
+
+                  <div class="col-md-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="" />
+                  </div>
+
+                  <div class="col-md-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+
+                  <div class="col-md-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                    <button type="submit">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- End Contact Form -->
+          </div>
+        </div>
+      </section>
+      <!-- /Contact Section -->
+    </main>
+
+    <footer id="footer" class="footer position-relative">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Banjir.Pekalongan</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>Universitas Gadjah Mada</p>
+              <p>Yogyakarta, Daerah Istimewa Yogyakarta</p>
+              <p class="mt-3"><strong>Phone:</strong> <span>+6283172826528</span></p>
+              <p><strong>Email:</strong> <span>windayuliana2004@mail.ugm.ac.id</span></p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href="https://www.tiktok.com/@winnnnndaa?_t=8nFcuTc1iuF&_r=1"><i class="bi bi-tiktok"></i></a>
+              <a href="https://github.com/windayuliana200"><i class="bi bi-github"></i></a>
+              <a href="https://www.instagram.com/windaaaayy_/?utm_source=ig_web_button_share_sheet"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/winda-yuliana-183954286/?originalSubdomain=id"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#">Upaya Penanggulangan</a></li>
+              <li><a href="#">Pemeliharaan Sistem Drainase</a></li>
+              <li><a href="#">Penanaman Pohon dan Konservasi Lahan</a></li>
+              <li><a href="#">Pengelolaan Sumber Daya Air</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-12 footer-newsletter">
+            <h4>Mini Project</h4>
+            <p>Subscribe to my Website!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email" /><input type="submit" value="Subscribe" /></div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="container copyright text-center mt-4">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Winda Yuliana</strong><span>(22/497003/SV/21070)</span></p>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
